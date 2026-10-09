@@ -473,3 +473,9 @@ Run `pnpm install` after changing package manifests, workspace layout, command e
 ## Can I use Node 22 instead of Node 24?
 
 No. `package.json#engines` specifies `node: "~24"`, which is the only supported runtime. The current lockfile pins `better-sqlite3@11.10.0`; on Windows it has no prebuilt binary for Node 24 and is built from source via node-gyp (see the Windows native section). Older Node versions are not tested and may hit lockfile or dependency incompatibilities.
+
+## Fork source and harness maintenance
+
+Read the [open-design-fork-dev skill](.agents/skills/open-design-fork-dev/SKILL.md) for source ownership,
+checks, outcome evidence and fork delivery. Keep general maintenance procedures
+with its shared owner and preserve this repository's operational boundaries.
