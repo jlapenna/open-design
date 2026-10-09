@@ -770,3 +770,10 @@ Detailed provenance → [`docs/references.md`](docs/references.md).
 ## License
 
 Apache-2.0. Bundled skills and templates with their own `LICENSE` files retain those licenses, including `design-templates/guizang-ppt/` (MIT, [@op7418](https://github.com/op7418)), `design-templates/html-ppt/` (MIT, [@lewislulu](https://github.com/lewislulu)), and `skills/web-clone/` (MIT, [@Jane-xiaoer](https://github.com/Jane-xiaoer)).
+
+## Fork repository maintenance
+
+Start at [AGENTS.md](AGENTS.md) and the
+[open-design-fork-dev skill](.agents/skills/open-design-fork-dev/SKILL.md) for fork source work and
+harness upkeep. Runtime operation and release procedures retain their
+existing scope and evidence requirements.
